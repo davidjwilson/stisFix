@@ -1,0 +1,1318 @@
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    04-Aug-2020 10:19:36 CDT
+2020217101936-I--------------- CALSTIS-6 started -------------------------------
+
+ERROR    PHOTTAB `/media/david/5tb_storage1/stis_recals/v727car/tm_files/new_phottab_&' not found
+Warning  Grating-aperture throughput correction table (GACTAB) was not found,
+         and no gac corrections will be applied
+Error processing /media/david/5tb_storage1/stis_recals/v727car/data/odlc02010_new_flt.fits.
+         Calibration file(s) missing.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    04-Aug-2020 10:20:55 CDT
+2020217102055-I--------------- CALSTIS-6 started -------------------------------
+
+ERROR    PHOTTAB `/media/david/5tb_storage1/stis_recals/v727car/tm_files/new_phottab_&' not found
+Warning  Grating-aperture throughput correction table (GACTAB) was not found,
+         and no gac corrections will be applied
+Error processing /media/david/5tb_storage1/stis_recals/v727car/data/odlc02010_new_flt.fits.
+         Calibration file(s) missing.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    04-Aug-2020 10:25:12 CDT
+2020217102512-I--------------- CALSTIS-6 started -------------------------------
+
+Warning  Grating-aperture throughput correction table (GACTAB) was not found,
+         and no gac corrections will be applied
+Input    /media/david/5tb_storage1/stis_recals/v727car/data/odlc02010_new_flt.fits
+Output   v727car_test_x1d.fits
+Rootname odlc02010
+OBSMODE  TIME-TAG
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+
+XTRACTAB oref$n7p10323o_1dx.fits
+XTRACTAB PEDIGREE=GROUND
+XTRACTAB DESCRIP =Analysis from prop. 7064 and ground data
+XTRACTAB DESCRIP =Prelaunch Values
+SPTRCTAB oref$q8l14504o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 27/02/1997 06/02/1999
+SPTRCTAB DESCRIP =New G140L traces and updated Echelle A2CENTER values
+
+Imset 1  Begin 10:25:12 CDT
+         Input read into memory.
+         Begin offset analysis.
+
+         Sporder Rej.  Offset
+            86         1.09226
+            87         1.02544
+            88         0.96185
+            89         0.953787
+            90         0.965868
+            91         0.971216
+            92         0.941704
+            93         0.932538
+            94         0.922899
+            95         0.920862
+            96         1.02327
+            97         1.07011
+            98         1.12992
+            99         1.1199
+            100         1.09737
+            101         1.13302
+            102    *    1.19662
+            103         1.13245
+            104         1.07521
+            105         1.08228
+            106         1.10608
+            107         1.02327
+            108         0.992432
+            109         0.958086
+            110         0.925859
+            111         0.933366
+            112         0.889687
+            113         0.932844
+            114         0.902259
+            115         0.982481
+            116         0.955081
+            117         1.104
+            118         1.0709
+            119         1.07659
+            120         1.09117
+            121         1.10802
+            122         1.03694
+            123         1.07967
+            124    *    1.18294
+            125         1.03419
+            126         1.03306
+            127         1.00165
+            128         0.931486
+            129         0.913434
+         Average       1.01511  (0.0757286)
+
+         End offset analysis.
+Order 86 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.09226 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 1011.7
+         Extraction box height = 7
+         Background box 1 height = 5 offset -16.8191 from A2CENTER
+         Background box 2 height = 5 offset 16.8191 from A2CENTER
+
+DISPCORR PERFORM
+DISPTAB  oref$m7p16110o_dsp.fits
+DISPTAB  PEDIGREE=GROUND
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =Prelaunch Calibration/Lindler
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 01/03/1997
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+INANGTAB oref$h1v1541eo_iac.fits
+INANGTAB PEDIGREE=GROUND
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+INANGTAB DESCRIP =Model
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+PHOTTAB  oref$new_phottab_15381_2019-11-13_newtime_slope_mask129_lt90.fits
+PHOTTAB  PEDIGREE=INFLIGHT 12/09/2016 24/09/2019
+PHOTTAB  DESCRIP =E140M sensitivity curves and blaze shift time coefficients updated
+PHOTTAB  DESCRIP =Updated Sensitivities and Blaze Shift Time Coef
+APERTAB  oref$y2r1559to_apt.fits
+APERTAB  PEDIGREE=MODEL
+APERTAB  DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+APERTAB  DESCRIP =Bohlin/Hartig TIM Models Nov. 1998
+PCTAB    oref$y2r16001o_pct.fits
+PCTAB    PEDIGREE=INFLIGHT 18/05/1997 19/12/1998
+PCTAB    DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+TDSTAB   oref$3ah1528co_tds.fits
+TDSTAB   PEDIGREE=INFLIGHT 01/04/1997 04/07/2019
+TDSTAB   DESCRIP =Updated time and temperature sensitivities for all optical elements.
+FLUXCORR PERFORM
+         Blaze shift of -0.669575 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 86 End 10:25:12 CDT
+
+Order 87 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.02544 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 978.685
+         Extraction box height = 7
+         Background box 1 height = 5 offset -16.446 from A2CENTER
+         Background box 2 height = 5 offset 16.446 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.692736 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 2 written to disk.
+Order 87 End 10:25:12 CDT
+
+Order 88 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.96185 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 946.416
+         Extraction box height = 7
+         Background box 1 height = 5 offset -16.0831 from A2CENTER
+         Background box 2 height = 5 offset 16.0831 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.715897 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 3 written to disk.
+Order 88 End 10:25:12 CDT
+
+Order 89 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.953787 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 914.925
+         Extraction box height = 7
+         Background box 1 height = 5 offset -15.7301 from A2CENTER
+         Background box 2 height = 5 offset 15.7301 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.739057 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 4 written to disk.
+Order 89 End 10:25:12 CDT
+
+Order 90 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.965868 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 884.154
+         Extraction box height = 7
+         Background box 1 height = 5 offset -15.387 from A2CENTER
+         Background box 2 height = 5 offset 15.387 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.762218 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 5 written to disk.
+Order 90 End 10:25:12 CDT
+
+Order 91 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.971216 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 854.056
+         Extraction box height = 7
+         Background box 1 height = 5 offset -15.0535 from A2CENTER
+         Background box 2 height = 5 offset 15.0535 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.785379 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 6 written to disk.
+Order 91 End 10:25:12 CDT
+
+Order 92 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.941704 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 824.582
+         Extraction box height = 7
+         Background box 1 height = 5 offset -14.7293 from A2CENTER
+         Background box 2 height = 5 offset 14.7293 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.808539 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 7 written to disk.
+Order 92 End 10:25:12 CDT
+
+Order 93 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.932538 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 795.767
+         Extraction box height = 7
+         Background box 1 height = 5 offset -14.4143 from A2CENTER
+         Background box 2 height = 5 offset 14.4143 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.8317 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 8 written to disk.
+Order 93 End 10:25:12 CDT
+
+Order 94 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.922899 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 767.57
+         Extraction box height = 7
+         Background box 1 height = 5 offset -14.1083 from A2CENTER
+         Background box 2 height = 5 offset 14.1083 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.854861 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 9 written to disk.
+Order 94 End 10:25:12 CDT
+
+Order 95 Begin 10:25:12 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.920862 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 739.982
+         Extraction box height = 7
+         Background box 1 height = 5 offset -13.8111 from A2CENTER
+         Background box 2 height = 5 offset 13.8111 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.878021 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 10 written to disk.
+Order 95 End 10:25:13 CDT
+
+Order 96 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.02327 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 713.079
+         Extraction box height = 7
+         Background box 1 height = 5 offset -13.5224 from A2CENTER
+         Background box 2 height = 5 offset 13.5224 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.901182 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 11 written to disk.
+Order 96 End 10:25:13 CDT
+
+Order 97 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.07011 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 686.685
+         Extraction box height = 7
+         Background box 1 height = 5 offset -13.2421 from A2CENTER
+         Background box 2 height = 5 offset 13.2421 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.924343 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 12 written to disk.
+Order 97 End 10:25:13 CDT
+
+Order 98 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.12992 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 660.85
+         Extraction box height = 7
+         Background box 1 height = 5 offset -12.97 from A2CENTER
+         Background box 2 height = 5 offset 12.97 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.947503 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 13 written to disk.
+Order 98 End 10:25:13 CDT
+
+Order 99 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.1199 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 635.475
+         Extraction box height = 7
+         Background box 1 height = 5 offset -12.7058 from A2CENTER
+         Background box 2 height = 5 offset 12.7058 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.970664 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 14 written to disk.
+Order 99 End 10:25:13 CDT
+
+Order100 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.09737 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 610.6
+         Extraction box height = 7
+         Background box 1 height = 5 offset -12.4493 from A2CENTER
+         Background box 2 height = 5 offset 12.4493 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -0.993824 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 15 written to disk.
+Order100 End 10:25:13 CDT
+
+Order101 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.13302 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 586.28
+         Extraction box height = 7
+         Background box 1 height = 5 offset -12.2004 from A2CENTER
+         Background box 2 height = 5 offset 12.2004 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.01699 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 16 written to disk.
+Order101 End 10:25:13 CDT
+
+Order102 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+Warning  Cross correlation to locate spectrum failed.
+Warning  Using global offset instead.
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 562.288
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.9588 from A2CENTER
+         Background box 2 height = 5 offset 11.9588 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.04015 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 17 written to disk.
+Order102 End 10:25:13 CDT
+
+Order103 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.13245 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 538.998
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.7244 from A2CENTER
+         Background box 2 height = 5 offset 11.7244 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.06331 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 18 written to disk.
+Order103 End 10:25:13 CDT
+
+Order104 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.07521 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 515.985
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.4968 from A2CENTER
+         Background box 2 height = 5 offset 11.4968 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.08647 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 19 written to disk.
+Order104 End 10:25:13 CDT
+
+Order105 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.08228 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 493.476
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.276 from A2CENTER
+         Background box 2 height = 5 offset 11.276 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.10963 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 20 written to disk.
+Order105 End 10:25:13 CDT
+
+Order106 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.10608 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 471.408
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.0618 from A2CENTER
+         Background box 2 height = 5 offset 11.0618 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.13279 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 21 written to disk.
+Order106 End 10:25:13 CDT
+
+Order107 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.02327 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 449.645
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.8538 from A2CENTER
+         Background box 2 height = 5 offset 10.8538 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.15595 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 22 written to disk.
+Order107 End 10:25:13 CDT
+
+Order108 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.992432 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 428.335
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.6519 from A2CENTER
+         Background box 2 height = 5 offset 10.6519 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.17911 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 23 written to disk.
+Order108 End 10:25:13 CDT
+
+Order109 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.958086 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 407.408
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.456 from A2CENTER
+         Background box 2 height = 5 offset 10.456 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.20227 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 24 written to disk.
+Order109 End 10:25:13 CDT
+
+Order110 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.925859 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 386.861
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.2657 from A2CENTER
+         Background box 2 height = 5 offset 10.2657 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.22543 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 25 written to disk.
+Order110 End 10:25:13 CDT
+
+Order111 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.933366 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 366.719
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.0809 from A2CENTER
+         Background box 2 height = 5 offset 10.0809 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.24859 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 26 written to disk.
+Order111 End 10:25:13 CDT
+
+Order112 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.889687 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 346.882
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.90146 from A2CENTER
+         Background box 2 height = 5 offset 9.90146 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.27175 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 27 written to disk.
+Order112 End 10:25:13 CDT
+
+Order113 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.932844 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 327.478
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.72706 from A2CENTER
+         Background box 2 height = 5 offset 9.72706 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.29491 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 28 written to disk.
+Order113 End 10:25:13 CDT
+
+Order114 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.902259 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 308.336
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.55754 from A2CENTER
+         Background box 2 height = 5 offset 9.55754 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.31807 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 29 written to disk.
+Order114 End 10:25:13 CDT
+
+Order115 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.982481 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 289.633
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.3927 from A2CENTER
+         Background box 2 height = 5 offset 9.3927 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.34123 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 30 written to disk.
+Order115 End 10:25:13 CDT
+
+Order116 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.955081 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 271.143
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.23233 from A2CENTER
+         Background box 2 height = 5 offset 9.23233 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.36439 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 31 written to disk.
+Order116 End 10:25:13 CDT
+
+Order117 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.104 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 253.14
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.07622 from A2CENTER
+         Background box 2 height = 5 offset 9.07622 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.38756 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 32 written to disk.
+Order117 End 10:25:13 CDT
+
+Order118 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.0709 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 235.26
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.92418 from A2CENTER
+         Background box 2 height = 5 offset 8.92418 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.41072 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 33 written to disk.
+Order118 End 10:25:13 CDT
+
+Order119 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.07659 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 217.718
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.77599 from A2CENTER
+         Background box 2 height = 5 offset 8.77599 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.43388 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 34 written to disk.
+Order119 End 10:25:13 CDT
+
+Order120 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.09117 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 200.476
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.63145 from A2CENTER
+         Background box 2 height = 5 offset 8.63145 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.45704 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 35 written to disk.
+Order120 End 10:25:13 CDT
+
+Order121 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.10802 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 183.522
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.49035 from A2CENTER
+         Background box 2 height = 5 offset 8.49035 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.4802 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 36 written to disk.
+Order121 End 10:25:13 CDT
+
+Order122 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.03694 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 166.762
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.3525 from A2CENTER
+         Background box 2 height = 5 offset 8.3525 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.50336 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 37 written to disk.
+Order122 End 10:25:13 CDT
+
+Order123 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.07967 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 150.392
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.21769 from A2CENTER
+         Background box 2 height = 5 offset 8.21769 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.52652 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 38 written to disk.
+Order123 End 10:25:13 CDT
+
+Order124 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+Warning  Cross correlation to locate spectrum failed.
+Warning  Using global offset instead.
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 134.187
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.0857 from A2CENTER
+         Background box 2 height = 5 offset 8.0857 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.54968 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 39 written to disk.
+Order124 End 10:25:13 CDT
+
+Order125 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.03419 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 118.334
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.95635 from A2CENTER
+         Background box 2 height = 5 offset 7.95635 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.57284 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 40 written to disk.
+Order125 End 10:25:13 CDT
+
+Order126 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.03306 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 102.727
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.82941 from A2CENTER
+         Background box 2 height = 5 offset 7.82941 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.596 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 41 written to disk.
+Order126 End 10:25:13 CDT
+
+Order127 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 1.00165 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 87.3531
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.7047 from A2CENTER
+         Background box 2 height = 5 offset 7.7047 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.61916 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 42 written to disk.
+Order127 End 10:25:13 CDT
+
+Order128 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.931486 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 72.2012
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.582 from A2CENTER
+         Background box 2 height = 5 offset 7.582 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.64232 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 43 written to disk.
+Order128 End 10:25:13 CDT
+
+Order129 Begin 10:25:13 CDT
+X1DCORR  PERFORM
+         Cross correlation offset: 0.913434 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 57.361
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.4611 from A2CENTER
+         Background box 2 height = 5 offset 7.4611 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+
+FLUXCORR PERFORM
+         Blaze shift of -1.66548 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+
+SGEOCORR OMIT
+
+         Row 44 written to disk.
+Order129 End 10:25:13 CDT
+
+Imset 1  End 10:25:13 CDT
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      04-Aug-2020 10:25:13 CDT
+
+*** CALSTIS-6 complete ***
+2020217102513-I--------------- CALSTIS-6 completed: ODLC02010 ------------------

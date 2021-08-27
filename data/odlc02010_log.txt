@@ -1,0 +1,4805 @@
+2020220221718-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: odlc02010 ------------
+2020220221718-I-INFO GCO_STIS: Starting...
+2020220221718-I-INFO GCO_poll_status: ===================================================================
+2020220221718-I-INFO GCO_poll_status: -------------- Generic Conversion Processing: odlc02010 ------------- 
+2020220221718-I-INFO -------------- Generic Conversion Started: odlc02010:odlc02cxq -------------
+2018005133652-I-INFO -------------- Data Partitioning Started: odlc02cxq ------------
+2018005133652-I-INFO Partitioning from POD file: lz_495a_036_0000021871
+2018005133652-I-INFO OSF_PROCESSING: for odlc02cxq
+2018005133652-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005133652-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2018005133652-I-INFO DPI_task::DP_close_oldobs:  1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005133652-I-INFO DP_close_files:  ...odlc02cxq.pkx was closed
+2018005133652-I-INFO DP_close_files:  ...odlc02cxq.bdx was closed
+2018005133652-I-INFO DP_close_files:  ...odlc02cxq.ulx was closed
+2018005133652-I-INFO DP_close_files:  ...odlc02cxq.pki was closed
+2018005133652-I-INFO DP_close_files:  ...odlc02cxq.uli was closed
+2018005133652-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02cyq.shx to ...odlc02cxq.shx
+2018005133652-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02cxq ------------
+2020220221713-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: odlc02cxq ------------
+2020220221713-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: odlc02cxq ------------
+2020220221714-I-INFO dv_DataValidation:  -------------- Data Validation Started: odlc02cxq ------------
+2020220221715-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2018.005:09:06:40
+2020220221715-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2018.005:09:06:40 using yurintab date: 2016.312:00:00:00
+2020220221715-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2020220221715-I-INFO dv_DataValidation:  -------------- Data Validation Completed: odlc02cxq ------------
+2020220221717-I-INFO ----------- World Coordinate System Started: odlc02cxq ---------
+2020220221717-I-INFO ----------- World Coordinate System Ended:   odlc02cxq ---------
+2020220221718-I-INFO GC_load_...s: ...odlc02cxq.dvx maxgroup=1
+2020220221718-I-INFO GC_load_...s: ...odlc02cxq.dgx maxgroup=0
+2020220221718-I-INFO GC_load_...s: ...odlc02cxq.dcx maxgroup=1
+2020220221718-I-INFO GCO_init_obs: odlc02cxq is a WAVECAL
+2020220221718-I-INFO -------------- Generic Conversion Completed: odlc02cxq -------------
+2020220221718-I-INFO -------------- Generic Conversion Started: odlc02010:odlc02czq -------------
+2018005133659-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005133659-I-INFO Partitioning from POD file: lz_495c_037_0000021873
+2018005133659-I-INFO OSF_PROCESSING: for odlc02czq
+2018005133659-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005133659-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005133659-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005133659-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005133659-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005133659-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005133659-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005133659-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005133659-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005133659-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005133714-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005133714-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005133714-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005133714-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005133714-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005133714-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005133714-I-INFO Partitioning from POD file: lz_495b_037_0000021872
+2018005133714-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005133714-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005133714-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005133714-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005133714-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005133714-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005133714-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005133714-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005133714-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005133714-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005143711-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005143711-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005143711-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005143711-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005143711-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005143711-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005143711-I-INFO Partitioning from POD file: lz_4961_034_0000021880
+2018005143711-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005143711-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005143711-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005143711-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005143711-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005143711-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005143711-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005143711-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005143711-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005143711-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005143714-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005143714-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005143714-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005143714-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005143714-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005143714-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005143714-I-INFO Partitioning from POD file: lz_4964_034_0000021883
+2018005143714-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005143714-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 8693, expected pkts = 8694 (single readout), total pkts = 8694
+2018005143714-I-INFO DPI_task::DP_close_oldobs:  8693 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005143714-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005143714-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005143714-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005143714-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005143714-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005143714-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005143714-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005143717-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005143717-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005143717-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005143717-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005143717-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005143717-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005143717-I-INFO Partitioning from POD file: lz_4962_034_0000021881
+2018005143717-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005143717-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005143717-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005143717-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005143717-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005143717-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005143717-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005143717-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005143717-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005143717-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005143719-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005143719-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005143719-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005143719-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005143719-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005143719-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005143719-I-INFO Partitioning from POD file: lz_4960_037_0000021879
+2018005143719-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005143719-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005143719-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005143719-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005143719-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005143719-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005143719-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005143719-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005143719-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005143719-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005143721-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005143721-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005143721-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005143721-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005143721-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005143721-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005143721-I-INFO Partitioning from POD file: lz_495d_037_0000021877
+2018005143721-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005143721-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005143721-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005143721-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005143721-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005143721-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005143721-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005143721-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005143721-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005143721-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005143722-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005143722-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005143722-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005143722-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005143722-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005143722-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005143722-I-INFO Partitioning from POD file: lz_495f_035_0000021878
+2018005143722-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005143722-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005143722-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005143722-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005143722-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005143722-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005143722-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005143722-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005143722-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005143722-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005143723-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005143723-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005143723-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005143723-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005143723-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005143723-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005143723-I-INFO Partitioning from POD file: lz_4963_034_0000021882
+2018005143723-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005143723-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005143723-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005143723-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005143723-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005143723-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005143723-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005143723-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005143723-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005143723-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2018005224019-I-INFO ...odlc02czq.pkx exists and will be APPENDED to.
+2018005224019-I-INFO ...odlc02czq.ulx exists and will be APPENDED to.
+2018005224019-I-INFO ...odlc02czq.pki exists and will be APPENDED to.
+2018005224019-I-INFO ...odlc02czq.uli exists and will be APPENDED to.
+2018005224019-I-INFO ...odlc02czq.erx exists and will be APPENDED to.
+2018005224019-I-INFO -------------- Data Partitioning Started: odlc02czq ------------
+2018005224019-I-INFO Partitioning from POD file: lz_495e_036_0000021902
+2018005224019-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005224019-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 4347, expected pkts = 4348 (single readout), total pkts = 4348
+2018005224019-I-INFO DPI_task::DP_close_oldobs:  4347 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005224019-I-INFO DP_close_files:  ...odlc02czq.pkx was closed
+2018005224019-I-INFO DP_close_files:  ...odlc02czq.bdx was closed
+2018005224019-I-INFO DP_close_files:  ...odlc02czq.ulx was closed
+2018005224019-I-INFO DP_close_files:  ...odlc02czq.pki was closed
+2018005224019-I-INFO DP_close_files:  ...odlc02czq.uli was closed
+2018005224019-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d0q.shx to ...odlc02czq.shx
+2018005224019-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02czq ------------
+2020220221713-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: odlc02czq ------------
+2020220221714-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: odlc02czq ------------
+2020220221715-I-INFO dv_DataValidation:  -------------- Data Validation Started: odlc02czq ------------
+2020220221715-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2018.005:09:08:56
+2020220221715-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2018.005:09:08:56 using yurintab date: 2016.312:00:00:00
+2020220221715-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2020220221717-I-INFO dv_DataValidation:  -------------- Data Validation Completed: odlc02czq ------------
+2020220221717-I-INFO ----------- World Coordinate System Started: odlc02czq ---------
+2020220221717-I-INFO ----------- World Coordinate System Ended:   odlc02czq ---------
+2020220221719-I-INFO GC_load_...s: ...odlc02czq.dvx maxgroup=10
+2020220221719-I-INFO GC_load_...s: ...odlc02czq.dgx maxgroup=0
+2020220221719-I-INFO GC_load_...s: ...odlc02czq.dcx maxgroup=10
+2020220221721-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 0: 826415E3
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1560579
+2020220221722-I-INFO  Dump 0, First=826415E3  Last=826436CF  LoneFine=0
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 163: 826436D0
+2020220221722-I-INFO GCO_good_coarseTime: Bad Coarsetime: 7FD971F8 maxCtime=2658784
+2020220221722-I-INFO GCO_decode_ttag: Bad Coarsetime: FFD971F8 at 600249
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1568772
+2020220221722-I-INFO  Dump 1, First=826436D0  Last=826457C3  LoneFine=163
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 72: 826457C4
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1572869
+2020220221722-I-INFO  Dump 2, First=826457C4  Last=826478BD  LoneFine=72
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 184: 826478BE
+2020220221722-I-INFO GCO_good_coarseTime: Bad Coarsetime: 7FCC4ABE maxCtime=2658784
+2020220221722-I-INFO GCO_decode_ttag: Bad Coarsetime: FFCC4ABE at 219544
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1583110
+2020220221722-I-INFO  Dump 3, First=826478BE  Last=826499AF  LoneFine=184
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 90: 826499B0
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1593346
+2020220221722-I-INFO  Dump 4, First=826499B0  Last=8264BAA0  LoneFine=90
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 138: 8264BAA1
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1609731
+2020220221722-I-INFO  Dump 5, First=8264BAA1  Last=8264DB95  LoneFine=138
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 139: 8264DB96
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1617925
+2020220221722-I-INFO  Dump 6, First=8264DB96  Last=8264FC8D  LoneFine=139
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 10: 8264FC8E
+2020220221722-I-INFO GCO_good_coarseTime: Bad Coarsetime: 7FC59B7A maxCtime=2658784
+2020220221722-I-INFO GCO_decode_ttag: Bad Coarsetime: FFC59B7A at 574166
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1626116
+2020220221722-I-INFO  Dump 7, First=8264FC8E  Last=82651D8A  LoneFine=10
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 104: 82651D8B
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1632262
+2020220221722-I-INFO  Dump 8, First=82651D8B  Last=82653E7D  LoneFine=104
+2020220221722-I-INFO GCO_decode_ttag: Found first coarsetime in dump at 158: 82653E7E
+2020220221722-I-INFO GCO_good_coarseTime: Bad Coarsetime: 7FC54A34 maxCtime=2658784
+2020220221722-I-INFO GCO_decode_ttag: Bad Coarsetime: FFC54A34 at 776814
+2020220221722-I-INFO GCO_decode_ttag: First fill detected at 1808360
+2020220221722-I-INFO  Dump 9, First=82653E7E  Last=826562EB  LoneFine=158
+2020220221722-I-INFO Scan of 10 dumps is complete
+2020220221722-I-INFO FITS file opened: ...odlc02010_tag.fits
+2020220221722-I-INFO PRIMARY ...s of ttag file written
+2020220221722-I-INFO FITS ttag file opened successfully
+2020220221722-I-INFO FITS ttag table 1 opened successfully
+2020220221725-I-INFO write_ttag Begin      End  Bad Fine Fine Buff      Total
+2020220221725-I-INFO write_ttag  Time     Time  Crs Roll Drop Full    Photons
+2020220221725-I-INFO GCO_parse_ttag: Goodtime added: 6415E334 
+2020220221725-I-INFO Doppler shift change at 0.006500 to -1
+2020220221726-I-INFO GCO_write_ttag: Dump  0     0.00   269.70    0   98   12    0    1552149
+2020220221726-I-INFO GCO_good_coarseTime: Bad Coarsetime: 7FD971F8 maxCtime=2658784
+2020220221727-I-INFO GCO_write_ttag: Dump  1   269.73   539.65    1  101    5    0    1560335
+2020220221727-I-INFO Doppler shift change at 623.965875 to 0
+2020220221728-I-INFO GCO_write_ttag: Dump  2   539.68   809.79    0  113   10    0    1564427
+2020220221728-I-INFO GCO_good_coarseTime: Bad Coarsetime: 7FCC4ABE maxCtime=2658784
+2020220221729-I-INFO GCO_write_ttag: Dump  3   809.82  1079.68    1   82   15    0    1574675
+2020220221730-I-INFO GCO_write_ttag: Dump  4  1079.71  1349.54    0   99   11    0    1584913
+2020220221731-I-INFO Doppler shift change at 1578.965875 to 1
+2020220221732-I-INFO GCO_write_ttag: Dump  5  1349.57  1619.52    0   97   12    0    1601294
+2020220221733-I-INFO GCO_write_ttag: Dump  6  1619.55  1889.60    0  106    9    0    1609485
+2020220221734-I-INFO GCO_good_coarseTime: Bad Coarsetime: 7FC59B7A maxCtime=2658784
+2020220221734-I-INFO GCO_write_ttag: Dump  7  1889.63  2159.84    1   94    9    0    1617670
+2020220221736-I-INFO GCO_write_ttag: Dump  8  2159.87  2429.76    0   91   10    0    1623827
+2020220221736-I-INFO GCO_good_coarseTime: Bad Coarsetime: 7FC54A34 maxCtime=2658784
+2020220221737-I-INFO GCO_write_ttag: Dump  9  2429.79  2728.19    1  101   17    0    1799033
+2020220221737-I-INFO FITS ttag file written successfully
+2020220221737-I-INFO FITS goodtimes table opened successfully
+2020220221737-I-INFO GTI interval: 0.006500  2728.206000
+2020220221737-I-INFO sum of goodtime intervals = 2728.199500 1
+2020220221737-I-INFO FITS goodtimes table written successfully
+2020220221737-I-INFO ------------------
+2020220221737-I-INFO total photon count = 16087808
+2020220221737-I-INFO fill count         = 10
+2020220221737-I-INFO events ignored     = 0
+2020220221737-I-INFO ------------------
+2020220221737-I-INFO image photons      = 16086820
+2020220221737-I-INFO doppler shifted    = 988
+2020220221737-I-INFO pixel overflow     = 0
+2020220221737-I-INFO ------------------
+2020220221737-I-INFO interrupt count    = 0
+2020220221737-I-INFO goodtimes count    = 1
+2020220221737-I-INFO ------------------
+2020220221737-I-INFO corrupt finetimes  = 4
+2020220221737-I-INFO finetime rollovers = 982
+2020220221737-I-INFO finetime dropbacks = 110
+2020220221737-I-INFO buffer full flags  = 0
+2020220221737-I-INFO negative time steps= 0
+2020220221737-I-INFO ------------------
+2020220221737-I-INFO Extension 1 : 16087808 4
+2020220221738-I-INFO FITS ttag image written successfully
+2020220221738-I-INFO -------------- Generic Conversion Completed: odlc02czq -------------
+2020220221738-I-INFO -------------- Generic Conversion Started: odlc02010:odlc02d1q -------------
+2018005143917-I-INFO -------------- Data Partitioning Started: odlc02d1q ------------
+2018005143917-I-INFO Partitioning from POD file: lz_4965_034_0000021884
+2018005143918-I-INFO OSF_PROCESSING: for odlc02d1q
+2018005143918-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2018005143918-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2018005143918-I-INFO DPI_task::DP_close_oldobs:  1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2018005143918-I-INFO DP_close_files:  ...odlc02d1q.pkx was closed
+2018005143918-I-INFO DP_close_files:  ...odlc02d1q.bdx was closed
+2018005143918-I-INFO DP_close_files:  ...odlc02d1q.ulx was closed
+2018005143918-I-INFO DP_close_files:  ...odlc02d1q.pki was closed
+2018005143918-I-INFO DP_close_files:  ...odlc02d1q.uli was closed
+2018005143918-I-INFO DPI_task::DP_close_oldobs:  Copied ...odlc02d2q.shx to ...odlc02d1q.shx
+2018005143918-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   odlc02d1q ------------
+2020220221714-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: odlc02d1q ------------
+2020220221714-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: odlc02d1q ------------
+2020220221717-I-INFO dv_DataValidation:  -------------- Data Validation Started: odlc02d1q ------------
+2020220221717-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2018.005:09:57:55
+2020220221717-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2018.005:09:57:55 using yurintab date: 2016.312:00:00:00
+2020220221717-I-INFO dv_STIS::compare:  Mismatched weight (0) was lower than threshold (55)
+2020220221717-I-INFO dv_DataValidation:  -------------- Data Validation Completed: odlc02d1q ------------
+2020220221717-I-INFO ----------- World Coordinate System Started: odlc02d1q ---------
+2020220221717-I-INFO ----------- World Coordinate System Ended:   odlc02d1q ---------
+2020220221738-I-INFO GC_load_...s: ...odlc02d1q.dvx maxgroup=1
+2020220221738-I-INFO GC_load_...s: ...odlc02d1q.dgx maxgroup=0
+2020220221738-I-INFO GC_load_...s: ...odlc02d1q.dcx maxgroup=1
+2020220221738-I-INFO GCO_init_obs: odlc02d1q is a WAVECAL
+2020220221738-I-INFO -------------- Generic Conversion Completed: odlc02d1q -------------
+2020220221738-I-INFO GCO_STIS: -------------- Generic Conversion Completed: odlc02010 ------------- 
+2020220221738-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: odlc02010 ------------
+2020220221807-I-INFO-exposure_times-Start ------ Exposure Times Updater for odlc02010 ------
+2020220221807-I-INFO-exposure_times-UPDATE_EXPOSURE_TIMES is False. No update necessary.
+2020220221807-I-INFO-exposure_times-  End ------ Exposure Times Updater Nothing to do for odlc02010 ------
+CALBEG ------------ Fri Aug  7 22:18:08 UTC 2020------------------
+
+*** CALSTIS-0 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:09 UTC
+2020220221809-I--------------- CALSTIS started ---------------------------------
+
+Input    odlc02010_raw.fits
+Wavecal  odlc02010_wav.fits
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:09 UTC
+2020220221809-I--------------- CALSTIS-1 started -------------------------------
+Input    odlc02010_raw.fits
+Output   odlc02010_flt.fits
+OBSMODE  TIME-TAG
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+2020220221809-I--------------- Begin processing: ODLC02010 ---------------------
+
+Imset 1  Begin 22:18:09 UTC
+2020220221810-I--------------- Input read into memory: ODLC02010 ---------------
+         Heliocentric radial velocity = -11.842 (km/s)
+
+DQICORR  PERFORM
+DQITAB   oref$uce15153o_bpx.fits
+DQITAB   PEDIGREE=GROUND
+DQITAB   DESCRIP =New BPIXTAB with opt_elem column and correct repeller wire flag----
+DQICORR  COMPLETE
+2020220221810-I--------------- DQICORR complete: ODLC02010 ---------------------
+         Uncertainty array initialized.
+2020220221810-I--------------- Uncertainty array initialized: ODLC02010 --------
+
+LORSCORR PERFORM
+LORSCORR COMPLETE
+2020220221810-I--------------- LORSCORR complete: ODLC02010 --------------------
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  oref$j9r16559o_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =T. Danks gathered Info
+MLINTAB  DESCRIP =T. Danks Gathered Info
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2020220221810-I--------------- Nonlinearity corr. complete: ODLC02010 ----------
+
+DARKCORR PERFORM
+DARKFILE oref$q591955ro_drk.fits
+DARKFILE PEDIGREE=INFLIGHT 29/01/2003 03/08/2004
+DARKFILE DESCRIP =Avg of 152 1380s darks from 9615 10034
+DARKCORR COMPLETE
+2020220221810-I--------------- DARKCORR complete: ODLC02010 --------------------
+
+FLATCORR PERFORM
+PFLTFILE oref$mbj1658bo_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 17/03/1998 17/05/2002
+PFLTFILE DESCRIP =On-orbit FUV P-flat created from proposals 7645,8428,8862,8922
+LFLTFILE oref$m1b2139mo_lfl.fits
+LFLTFILE PEDIGREE=DUMMY
+LFLTFILE DESCRIP =Dummy file created by M. Mcgrath. Modified by C Proffitt
+FLATCORR COMPLETE
+2020220221810-I--------------- FLATCORR complete: ODLC02010 --------------------
+
+PHOTCORR OMIT
+
+DOPPCORR applied to DQICORR, DARKCORR, FLATCORR
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2020220221810-I--------------- STATFLAG complete: ODLC02010 --------------------
+2020220221810-I--------------- Output written to disk: ODLC02010 ---------------
+Imset 1  End 22:18:10 UTC
+
+End      07-Aug-2020 22:18:10 UTC
+
+*** CALSTIS-1 complete ***
+2020220221810-I--------------- CALSTIS-1 completed: ODLC02010 ------------------
+
+*** CALSTIS-1 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:10 UTC
+2020220221810-I--------------- CALSTIS-1 started -------------------------------
+Input    odlc02010_wav.fits
+Output   odlc02010_fwv_tmp.fits
+OBSMODE  ACCUM
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+2020220221810-I--------------- Begin processing: ODLC02010 ---------------------
+
+Imset 1  Begin 22:18:10 UTC
+2020220221810-I--------------- Input read into memory: ODLC02010 ---------------
+
+DQICORR  PERFORM
+DQITAB   oref$uce15153o_bpx.fits
+DQITAB   PEDIGREE=GROUND
+DQITAB   DESCRIP =New BPIXTAB with opt_elem column and correct repeller wire flag----
+DQICORR  COMPLETE
+2020220221810-I--------------- DQICORR complete: ODLC02010 ---------------------
+         Uncertainty array initialized.
+2020220221810-I--------------- Uncertainty array initialized: ODLC02010 --------
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  oref$j9r16559o_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =T. Danks gathered Info
+MLINTAB  DESCRIP =T. Danks Gathered Info
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2020220221810-I--------------- Nonlinearity corr. complete: ODLC02010 ----------
+
+DARKCORR PERFORM
+DARKFILE oref$q591955ro_drk.fits
+DARKFILE PEDIGREE=INFLIGHT 29/01/2003 03/08/2004
+DARKFILE DESCRIP =Avg of 152 1380s darks from 9615 10034
+DARKCORR COMPLETE
+2020220221811-I--------------- DARKCORR complete: ODLC02010 --------------------
+
+FLATCORR PERFORM
+PFLTFILE oref$mbj1658bo_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 17/03/1998 17/05/2002
+PFLTFILE DESCRIP =On-orbit FUV P-flat created from proposals 7645,8428,8862,8922
+LFLTFILE oref$m1b2139mo_lfl.fits
+LFLTFILE PEDIGREE=DUMMY
+LFLTFILE DESCRIP =Dummy file created by M. Mcgrath. Modified by C Proffitt
+FLATCORR COMPLETE
+2020220221811-I--------------- FLATCORR complete: ODLC02010 --------------------
+
+PHOTCORR OMIT
+
+DOPPCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2020220221811-I--------------- STATFLAG complete: ODLC02010 --------------------
+2020220221811-I--------------- Output written to disk: ODLC02010 ---------------
+Imset 1  End 22:18:11 UTC
+
+Imset 2  Begin 22:18:11 UTC
+2020220221811-I--------------- Input read into memory: ODLC02010 ---------------
+
+DQICORR  PERFORM
+DQICORR  COMPLETE
+2020220221811-I--------------- DQICORR complete: ODLC02010 ---------------------
+         Uncertainty array initialized.
+2020220221811-I--------------- Uncertainty array initialized: ODLC02010 --------
+
+LORSCORR OMIT
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2020220221811-I--------------- Nonlinearity corr. complete: ODLC02010 ----------
+
+DARKCORR PERFORM
+DARKCORR COMPLETE
+2020220221811-I--------------- DARKCORR complete: ODLC02010 --------------------
+
+FLATCORR PERFORM
+FLATCORR COMPLETE
+2020220221811-I--------------- FLATCORR complete: ODLC02010 --------------------
+
+DOPPCORR OMIT
+
+STATFLAG PERFORM
+STATFLAG COMPLETE
+2020220221811-I--------------- STATFLAG complete: ODLC02010 --------------------
+2020220221811-I--------------- Output written to disk: ODLC02010 ---------------
+Imset 2  End 22:18:11 UTC
+
+End      07-Aug-2020 22:18:11 UTC
+
+*** CALSTIS-1 complete ***
+2020220221811-I--------------- CALSTIS-1 completed: ODLC02010 ------------------
+
+*** CALSTIS-4 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:11 UTC
+2020220221811-I--------------- CALSTIS-4 started -------------------------------
+Input    odlc02010_fwv_tmp.fits
+OBSMODE  ACCUM
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+2020220221811-I--------------- Begin processing: ODLC02010 ---------------------
+         Wavecal parameters are: \
+         WL_TRIM1 = 10 \
+         WL_TRIM2 = 10
+
+Imset 1  Begin 22:18:11 UTC
+         Section to use for finding shift: \
+             11:1014, 11:1014 \
+         Image pixels are reference pixel size.
+
+WAVECORR PERFORM
+WCPTAB   oref$16j1600co_wcp.fits
+WCPTAB   PEDIGREE=GROUND
+WCPTAB   DESCRIP =Force G140M and G230L SHIFTA2 into single-bar mode via SP_TRIM2.---
+WCPTAB   DESCRIP =TRIM values modified, WL_RANGE and SP_RANGE increased
+LAMPTAB  oref$l421050oo_lmp.fits
+LAMPTAB  PEDIGREE=GROUND
+LAMPTAB  DESCRIP =Ground+Inflight Cal PT lamp, 3.8 & 10 mA
+LAMPTAB  DESCRIP =Ground Cal for non-PRISM, PT lamp 10 mA
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 01/03/1997
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+DISPTAB  oref$m7p16110o_dsp.fits
+DISPTAB  PEDIGREE=GROUND
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =Prelaunch Calibration/Lindler
+INANGTAB oref$h1v1541eo_iac.fits
+INANGTAB PEDIGREE=GROUND
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+INANGTAB DESCRIP =Model
+SPTRCTAB oref$q8l14504o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 27/02/97 05/05/98
+SPTRCTAB DESCRIP =New G140L traces and updated Echelle A2CENTER values
+SPTRCTAB DESCRIP =Lindler, Initial Postlaunch Calibration
+         Shift in dispersion direction is 4.473 pixels.
+         Shift in spatial direction is -0.110 pixels.
+WAVECORR COMPLETE
+Imset 1  End 22:18:12 UTC
+2020220221812-I--------------- Ending current imset: ODLC02010 -----------------
+
+Imset 2  Begin 22:18:12 UTC
+         Section to use for finding shift: \
+             11:1014, 11:1014 \
+         Image pixels are reference pixel size.
+
+WAVECORR PERFORM
+         Shift in dispersion direction is 3.975 pixels.
+         Shift in spatial direction is 0.181 pixels.
+WAVECORR COMPLETE
+Imset 2  End 22:18:13 UTC
+2020220221813-I--------------- Ending current imset: ODLC02010 -----------------
+
+End      07-Aug-2020 22:18:13 UTC
+
+*** CALSTIS-4 complete ***
+2020220221813-I--------------- CALSTIS-4 completed: ODLC02010 ------------------
+
+*** CALSTIS-12 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:13 UTC
+2020220221813-I--------------- CALSTIS-12 started ------------------------------
+Wavecal  odlc02010_fwv_tmp.fits
+Science  odlc02010_flt.fits
+OBSMODE  TIME-TAG
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+2020220221813-I--------------- Begin processing: ODLC02010 ---------------------
+         Linear interpolation will be used to get the output shifts.
+Imset 1  Begin 22:18:13 UTC
+         SHIFTA1 set to 4.23091
+         SHIFTA2 set to 0.0314721
+Imset 1  End 22:18:13 UTC
+2020220221813-I--------------- CALSTIS-12 completed: ODLC02010 -----------------
+
+End      07-Aug-2020 22:18:13 UTC
+
+*** CALSTIS-12 complete ***
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:13 UTC
+2020220221813-I--------------- CALSTIS-6 started -------------------------------
+
+2-D scattering correction algorithm activated.
+
+Warning  Grating-aperture throughput correction table (GACTAB) was not found,
+         and no gac corrections will be applied
+Read scattering functions and build kernels.
+Reading ECHSCTAB: oref$k8m09585o_ech.fits
+Reading EXSTAB: oref$k8m09586o_exs.fits
+Reading CDSTAB: oref$k8m09584o_cds.fits
+Reading RIPTAB: oref$48717023o_rip.fits
+Reading SRWTAB: oref$k8m09589o_srw.fits
+Reading HALOTAB: oref$k8m09587o_hal.fits
+Reading TELTAB: oref$k8m0958ao_tel.fits
+Computing Fourier Transforms of kernel at wavelength  1150
+Computing Fourier Transforms of kernel at wavelength  1300
+Computing Fourier Transforms of kernel at wavelength  1600
+Begin extraction of 1-D data.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:20 UTC
+
+Input    odlc02010_flt.fits
+Output   TEMPX1D_odlc02010_x1d.fits
+Rootname odlc02010
+OBSMODE  TIME-TAG
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+
+XTRACTAB oref$n7p10323o_1dx.fits
+XTRACTAB PEDIGREE=GROUND
+XTRACTAB DESCRIP =Analysis from prop. 7064 and ground data
+XTRACTAB DESCRIP =Prelaunch Values
+SPTRCTAB oref$q8l14504o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 27/02/1997 06/02/1999
+SPTRCTAB DESCRIP =New G140L traces and updated Echelle A2CENTER values
+
+Imset 1  Begin 22:18:20 UTC
+         Input read into memory.
+         Begin offset analysis.
+         End offset analysis.
+Order 86 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 1011.7
+
+DISPCORR PERFORM
+DISPTAB  oref$m7p16110o_dsp.fits
+DISPTAB  PEDIGREE=GROUND
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =Prelaunch Calibration/Lindler
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 01/03/1997
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+INANGTAB oref$h1v1541eo_iac.fits
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 86 End 22:18:20 UTC
+
+Order 87 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 978.685
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 2 written to disk.
+Order 87 End 22:18:20 UTC
+
+Order 88 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 946.416
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 3 written to disk.
+Order 88 End 22:18:20 UTC
+
+Order 89 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 914.925
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 4 written to disk.
+Order 89 End 22:18:20 UTC
+
+Order 90 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 884.154
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 5 written to disk.
+Order 90 End 22:18:20 UTC
+
+Order 91 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 854.056
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 6 written to disk.
+Order 91 End 22:18:20 UTC
+
+Order 92 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 824.582
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 7 written to disk.
+Order 92 End 22:18:20 UTC
+
+Order 93 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 795.767
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 8 written to disk.
+Order 93 End 22:18:20 UTC
+
+Order 94 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 767.57
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 9 written to disk.
+Order 94 End 22:18:20 UTC
+
+Order 95 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 739.982
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 10 written to disk.
+Order 95 End 22:18:20 UTC
+
+Order 96 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 713.079
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 11 written to disk.
+Order 96 End 22:18:20 UTC
+
+Order 97 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 686.685
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 12 written to disk.
+Order 97 End 22:18:20 UTC
+
+Order 98 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 660.85
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 13 written to disk.
+Order 98 End 22:18:20 UTC
+
+Order 99 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 635.475
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 14 written to disk.
+Order 99 End 22:18:20 UTC
+
+Order100 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 610.6
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 15 written to disk.
+Order100 End 22:18:20 UTC
+
+Order101 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 586.28
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 16 written to disk.
+Order101 End 22:18:20 UTC
+
+Order102 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+Warning  Cross correlation to locate spectrum failed.
+Warning  The offset found was: 1.19662 pixels
+Warning  Using global offset instead.
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 562.288
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 17 written to disk.
+Order102 End 22:18:20 UTC
+
+Order103 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 538.998
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 18 written to disk.
+Order103 End 22:18:20 UTC
+
+Order104 Begin 22:18:20 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 515.985
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 19 written to disk.
+Order104 End 22:18:21 UTC
+
+Order105 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 493.476
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 20 written to disk.
+Order105 End 22:18:21 UTC
+
+Order106 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 471.408
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 21 written to disk.
+Order106 End 22:18:21 UTC
+
+Order107 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 449.645
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 22 written to disk.
+Order107 End 22:18:21 UTC
+
+Order108 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 428.335
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 23 written to disk.
+Order108 End 22:18:21 UTC
+
+Order109 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 407.408
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 24 written to disk.
+Order109 End 22:18:21 UTC
+
+Order110 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 386.861
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 25 written to disk.
+Order110 End 22:18:21 UTC
+
+Order111 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 366.719
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 26 written to disk.
+Order111 End 22:18:21 UTC
+
+Order112 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 346.882
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 27 written to disk.
+Order112 End 22:18:21 UTC
+
+Order113 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 327.478
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 28 written to disk.
+Order113 End 22:18:21 UTC
+
+Order114 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 308.336
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 29 written to disk.
+Order114 End 22:18:21 UTC
+
+Order115 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 289.633
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 30 written to disk.
+Order115 End 22:18:21 UTC
+
+Order116 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 271.143
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 31 written to disk.
+Order116 End 22:18:21 UTC
+
+Order117 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 253.14
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 32 written to disk.
+Order117 End 22:18:21 UTC
+
+Order118 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 235.26
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 33 written to disk.
+Order118 End 22:18:21 UTC
+
+Order119 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 217.718
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 34 written to disk.
+Order119 End 22:18:21 UTC
+
+Order120 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 200.476
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 35 written to disk.
+Order120 End 22:18:21 UTC
+
+Order121 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 183.522
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 36 written to disk.
+Order121 End 22:18:21 UTC
+
+Order122 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 166.762
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 37 written to disk.
+Order122 End 22:18:21 UTC
+
+Order123 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 150.392
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 38 written to disk.
+Order123 End 22:18:21 UTC
+
+Order124 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+Warning  Cross correlation to locate spectrum failed.
+Warning  The offset found was: 1.18294 pixels
+Warning  Using global offset instead.
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 134.187
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 39 written to disk.
+Order124 End 22:18:21 UTC
+
+Order125 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 118.334
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 40 written to disk.
+Order125 End 22:18:21 UTC
+
+Order126 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 102.727
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 41 written to disk.
+Order126 End 22:18:21 UTC
+
+Order127 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 87.3531
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 42 written to disk.
+Order127 End 22:18:21 UTC
+
+Order128 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 72.2012
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 43 written to disk.
+Order128 End 22:18:21 UTC
+
+Order129 Begin 22:18:21 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 57.361
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 44 written to disk.
+Order129 End 22:18:21 UTC
+
+Imset 1  End 22:18:21 UTC
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      07-Aug-2020 22:18:21 UTC
+
+*** CALSTIS-6 complete ***
+End extraction of 1-D data.
+Read input image.
+Read 1-D data.
+Rebin/copy image to work area.
+Compute algorithm parameters.
+Compute extended arrays.
+Create model 1-D spectrum.
+Begin main loop.
+
+Begin iteration  1
+Map 1-D spectrum onto 2-D arrays.
+Build image with scattered light prediction.
+Convolve with x-disperser profile.
+Build composite model.
+Convolve model with PSF and detector halo.
+Convolve at 2nd wavelength.
+Convolve at 3rd wavelength.
+Co-add individual model images.
+Write current model image to disk.
+Begin extraction of 1-D data.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:27 UTC
+
+Input    TEMPIMA_odlc02010_x1d.fits
+Output   TEMPX1D_odlc02010_x1d.fits
+Rootname odlc02010
+OBSMODE  TIME-TAG
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+
+XTRACTAB oref$n7p10323o_1dx.fits
+XTRACTAB PEDIGREE=GROUND
+XTRACTAB DESCRIP =Analysis from prop. 7064 and ground data
+XTRACTAB DESCRIP =Prelaunch Values
+SPTRCTAB oref$q8l14504o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 27/02/1997 06/02/1999
+SPTRCTAB DESCRIP =New G140L traces and updated Echelle A2CENTER values
+
+Imset 1  Begin 22:18:27 UTC
+         Input read into memory.
+         Begin offset analysis.
+         End offset analysis.
+Order 86 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 1011.67
+
+DISPCORR PERFORM
+DISPTAB  oref$m7p16110o_dsp.fits
+DISPTAB  PEDIGREE=GROUND
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =Prelaunch Calibration/Lindler
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 01/03/1997
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+INANGTAB oref$h1v1541eo_iac.fits
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 86 End 22:18:27 UTC
+
+Order 87 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 978.675
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 2 written to disk.
+Order 87 End 22:18:27 UTC
+
+Order 88 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 946.431
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 3 written to disk.
+Order 88 End 22:18:27 UTC
+
+Order 89 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 914.945
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 4 written to disk.
+Order 89 End 22:18:27 UTC
+
+Order 90 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 884.169
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 5 written to disk.
+Order 90 End 22:18:27 UTC
+
+Order 91 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 854.068
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 6 written to disk.
+Order 91 End 22:18:27 UTC
+
+Order 92 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 824.604
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 7 written to disk.
+Order 92 End 22:18:27 UTC
+
+Order 93 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 795.792
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 8 written to disk.
+Order 93 End 22:18:27 UTC
+
+Order 94 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 767.6
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 9 written to disk.
+Order 94 End 22:18:27 UTC
+
+Order 95 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 740.011
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 10 written to disk.
+Order 95 End 22:18:27 UTC
+
+Order 96 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 713.072
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 11 written to disk.
+Order 96 End 22:18:27 UTC
+
+Order 97 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 686.659
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 12 written to disk.
+Order 97 End 22:18:27 UTC
+
+Order 98 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 660.805
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 13 written to disk.
+Order 98 End 22:18:27 UTC
+
+Order 99 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 635.435
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 14 written to disk.
+Order 99 End 22:18:27 UTC
+
+Order100 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 610.567
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 15 written to disk.
+Order100 End 22:18:27 UTC
+
+Order101 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 586.235
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 16 written to disk.
+Order101 End 22:18:27 UTC
+
+Order102 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 562.284
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 17 written to disk.
+Order102 End 22:18:27 UTC
+
+Order103 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 538.952
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 18 written to disk.
+Order103 End 22:18:27 UTC
+
+Order104 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 515.959
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 19 written to disk.
+Order104 End 22:18:27 UTC
+
+Order105 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 493.447
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 20 written to disk.
+Order105 End 22:18:27 UTC
+
+Order106 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 471.37
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 21 written to disk.
+Order106 End 22:18:27 UTC
+
+Order107 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 449.638
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 22 written to disk.
+Order107 End 22:18:27 UTC
+
+Order108 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 428.339
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 23 written to disk.
+Order108 End 22:18:27 UTC
+
+Order109 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 407.425
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 24 written to disk.
+Order109 End 22:18:27 UTC
+
+Order110 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 386.89
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 25 written to disk.
+Order110 End 22:18:27 UTC
+
+Order111 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 366.745
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 26 written to disk.
+Order111 End 22:18:27 UTC
+
+Order112 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 346.924
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 27 written to disk.
+Order112 End 22:18:27 UTC
+
+Order113 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 327.502
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 28 written to disk.
+Order113 End 22:18:27 UTC
+
+Order114 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 308.372
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 29 written to disk.
+Order114 End 22:18:27 UTC
+
+Order115 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 289.642
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 30 written to disk.
+Order115 End 22:18:27 UTC
+
+Order116 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 271.161
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 31 written to disk.
+Order116 End 22:18:27 UTC
+
+Order117 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 253.111
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 32 written to disk.
+Order117 End 22:18:27 UTC
+
+Order118 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 235.243
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 33 written to disk.
+Order118 End 22:18:27 UTC
+
+Order119 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 217.702
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 34 written to disk.
+Order119 End 22:18:27 UTC
+
+Order120 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 200.468
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 35 written to disk.
+Order120 End 22:18:27 UTC
+
+Order121 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 183.524
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 36 written to disk.
+Order121 End 22:18:27 UTC
+
+Order122 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 166.747
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 37 written to disk.
+Order122 End 22:18:27 UTC
+
+Order123 Begin 22:18:27 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 150.356
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 38 written to disk.
+Order123 End 22:18:28 UTC
+
+Order124 Begin 22:18:28 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 134.177
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 39 written to disk.
+Order124 End 22:18:28 UTC
+
+Order125 Begin 22:18:28 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 118.325
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 40 written to disk.
+Order125 End 22:18:28 UTC
+
+Order126 Begin 22:18:28 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 102.724
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 41 written to disk.
+Order126 End 22:18:28 UTC
+
+Order127 Begin 22:18:28 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 87.3646
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 42 written to disk.
+Order127 End 22:18:28 UTC
+
+Order128 Begin 22:18:28 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 72.2449
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 43 written to disk.
+Order128 End 22:18:28 UTC
+
+Order129 Begin 22:18:28 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 57.4608
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 44 written to disk.
+Order129 End 22:18:28 UTC
+
+Imset 1  End 22:18:28 UTC
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      07-Aug-2020 22:18:28 UTC
+
+*** CALSTIS-6 complete ***
+End extraction of 1-D data.
+Read 1-D data.
+Update with correction term.
+Build new 1-D spectrum model.
+
+Begin iteration  2
+Map 1-D spectrum onto 2-D arrays.
+Build image with scattered light prediction.
+Convolve with x-disperser profile.
+Build composite model.
+Convolve model with PSF and detector halo.
+Convolve at 2nd wavelength.
+Convolve at 3rd wavelength.
+Co-add individual model images.
+Write current model image to disk.
+Begin extraction of 1-D data.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:34 UTC
+
+Input    TEMPIMA_odlc02010_x1d.fits
+Output   TEMPX1D_odlc02010_x1d.fits
+Rootname odlc02010
+OBSMODE  TIME-TAG
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+
+XTRACTAB oref$n7p10323o_1dx.fits
+XTRACTAB PEDIGREE=GROUND
+XTRACTAB DESCRIP =Analysis from prop. 7064 and ground data
+XTRACTAB DESCRIP =Prelaunch Values
+SPTRCTAB oref$q8l14504o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 27/02/1997 06/02/1999
+SPTRCTAB DESCRIP =New G140L traces and updated Echelle A2CENTER values
+
+Imset 1  Begin 22:18:34 UTC
+         Input read into memory.
+         Begin offset analysis.
+         End offset analysis.
+Order 86 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 1011.67
+
+DISPCORR PERFORM
+DISPTAB  oref$m7p16110o_dsp.fits
+DISPTAB  PEDIGREE=GROUND
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =Prelaunch Calibration/Lindler
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 01/03/1997
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+INANGTAB oref$h1v1541eo_iac.fits
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 86 End 22:18:34 UTC
+
+Order 87 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 978.675
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 2 written to disk.
+Order 87 End 22:18:34 UTC
+
+Order 88 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 946.431
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 3 written to disk.
+Order 88 End 22:18:34 UTC
+
+Order 89 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 914.944
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 4 written to disk.
+Order 89 End 22:18:34 UTC
+
+Order 90 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 884.169
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 5 written to disk.
+Order 90 End 22:18:34 UTC
+
+Order 91 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 854.068
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 6 written to disk.
+Order 91 End 22:18:34 UTC
+
+Order 92 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 824.604
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 7 written to disk.
+Order 92 End 22:18:34 UTC
+
+Order 93 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 795.791
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 8 written to disk.
+Order 93 End 22:18:34 UTC
+
+Order 94 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 767.6
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 9 written to disk.
+Order 94 End 22:18:34 UTC
+
+Order 95 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 740.011
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 10 written to disk.
+Order 95 End 22:18:34 UTC
+
+Order 96 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 713.072
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 11 written to disk.
+Order 96 End 22:18:34 UTC
+
+Order 97 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 686.659
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 12 written to disk.
+Order 97 End 22:18:34 UTC
+
+Order 98 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 660.805
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 13 written to disk.
+Order 98 End 22:18:34 UTC
+
+Order 99 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 635.435
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 14 written to disk.
+Order 99 End 22:18:34 UTC
+
+Order100 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 610.567
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 15 written to disk.
+Order100 End 22:18:34 UTC
+
+Order101 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 586.235
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 16 written to disk.
+Order101 End 22:18:34 UTC
+
+Order102 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 562.284
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 17 written to disk.
+Order102 End 22:18:34 UTC
+
+Order103 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 538.952
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 18 written to disk.
+Order103 End 22:18:34 UTC
+
+Order104 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 515.959
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 19 written to disk.
+Order104 End 22:18:34 UTC
+
+Order105 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 493.447
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 20 written to disk.
+Order105 End 22:18:34 UTC
+
+Order106 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 471.37
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 21 written to disk.
+Order106 End 22:18:34 UTC
+
+Order107 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 449.638
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 22 written to disk.
+Order107 End 22:18:34 UTC
+
+Order108 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 428.339
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 23 written to disk.
+Order108 End 22:18:34 UTC
+
+Order109 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 407.425
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 24 written to disk.
+Order109 End 22:18:34 UTC
+
+Order110 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 386.89
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 25 written to disk.
+Order110 End 22:18:34 UTC
+
+Order111 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 366.745
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 26 written to disk.
+Order111 End 22:18:34 UTC
+
+Order112 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 346.923
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 27 written to disk.
+Order112 End 22:18:34 UTC
+
+Order113 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 327.502
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 28 written to disk.
+Order113 End 22:18:34 UTC
+
+Order114 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 308.372
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 29 written to disk.
+Order114 End 22:18:34 UTC
+
+Order115 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 289.642
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 30 written to disk.
+Order115 End 22:18:34 UTC
+
+Order116 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 271.161
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 31 written to disk.
+Order116 End 22:18:34 UTC
+
+Order117 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 253.111
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 32 written to disk.
+Order117 End 22:18:34 UTC
+
+Order118 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 235.243
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 33 written to disk.
+Order118 End 22:18:34 UTC
+
+Order119 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 217.701
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 34 written to disk.
+Order119 End 22:18:34 UTC
+
+Order120 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 200.467
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 35 written to disk.
+Order120 End 22:18:34 UTC
+
+Order121 Begin 22:18:34 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 183.52
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 36 written to disk.
+Order121 End 22:18:35 UTC
+
+Order122 Begin 22:18:35 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 166.747
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 37 written to disk.
+Order122 End 22:18:35 UTC
+
+Order123 Begin 22:18:35 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 150.356
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 38 written to disk.
+Order123 End 22:18:35 UTC
+
+Order124 Begin 22:18:35 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 134.177
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 39 written to disk.
+Order124 End 22:18:35 UTC
+
+Order125 Begin 22:18:35 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 118.325
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 40 written to disk.
+Order125 End 22:18:35 UTC
+
+Order126 Begin 22:18:35 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 102.724
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 41 written to disk.
+Order126 End 22:18:35 UTC
+
+Order127 Begin 22:18:35 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 87.3644
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 42 written to disk.
+Order127 End 22:18:35 UTC
+
+Order128 Begin 22:18:35 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 72.244
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 43 written to disk.
+Order128 End 22:18:35 UTC
+
+Order129 Begin 22:18:35 UTC
+X1DCORR  PERFORM
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+         Spectrum extracted at y position = 57.4538
+
+DISPCORR PERFORM
+DISPCORR COMPLETE
+
+HELCORR  OMIT
+
+FLUXCORR OMIT
+
+SGEOCORR OMIT
+
+         Row 44 written to disk.
+Order129 End 22:18:35 UTC
+
+Imset 1  End 22:18:35 UTC
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      07-Aug-2020 22:18:35 UTC
+
+*** CALSTIS-6 complete ***
+End extraction of 1-D data.
+Read 1-D data.
+Update with correction term.
+Build new 1-D spectrum model.
+
+Begin iteration  3
+Map 1-D spectrum onto 2-D arrays.
+Build image with scattered light prediction.
+Convolve with x-disperser profile.
+Build composite model.
+Convolve model with PSF and detector halo.
+Convolve at 2nd wavelength.
+Convolve at 3rd wavelength.
+Convolve final object image.
+Convolve at 2nd wavelength.
+Convolve at 3rd wavelength.
+Co-add individual model images.
+Co-add individual object images.
+End main loop.
+Rebin/copy work image to original sampling.
+Subtract scattered light from input image.
+Write corrected input image to disk.
+Begin final extraction of 1-D data.
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    07-Aug-2020 22:18:45 UTC
+2020220221845-I--------------- CALSTIS-6 started -------------------------------
+
+Warning  Grating-aperture throughput correction table (GACTAB) was not found,
+         and no gac corrections will be applied
+Input    TEMPIMA1_odlc02010_x1d.fits
+Output   odlc02010_x1d.fits
+Rootname odlc02010
+OBSMODE  TIME-TAG
+APERTURE 0.2X0.2
+OPT_ELEM E140M
+DETECTOR FUV-MAMA
+
+XTRACTAB oref$n7p10323o_1dx.fits
+XTRACTAB PEDIGREE=GROUND
+XTRACTAB DESCRIP =Analysis from prop. 7064 and ground data
+XTRACTAB DESCRIP =Prelaunch Values
+SPTRCTAB oref$q8l14504o_1dt.fits
+SPTRCTAB PEDIGREE=INFLIGHT 27/02/1997 06/02/1999
+SPTRCTAB DESCRIP =New G140L traces and updated Echelle A2CENTER values
+
+Imset 1  Begin 22:18:45 UTC
+         Input read into memory.
+         Begin offset analysis.
+
+         Sporder Rej.  Offset
+            86         1.09256
+            87         1.02597
+            88         0.961925
+            89         0.954572
+            90         0.966338
+            91         0.971446
+            92         0.942074
+            93         0.933027
+            94         0.92338
+            95         0.921381
+            96         1.02381
+            97         1.07077
+            98         1.13059
+            99         1.12043
+            100         1.09794
+            101         1.13357
+            102    *    1.19759
+            103         1.13475
+            104         1.07745
+            105         1.08283
+            106         1.10667
+            107         1.02385
+            108         0.992956
+            109         0.958534
+            110         0.926141
+            111         0.933902
+            112         0.890071
+            113         0.932884
+            114         0.902704
+            115         0.982534
+            116         0.95444
+            117         1.10117
+            118         1.06584
+            119         1.06421
+            120         1.06141
+            121         1.06542
+            122         1.04805
+            123         1.10422
+            124    *    1.19747
+            125         1.03674
+            126         1.02939
+            127         0.991616
+            128         0.907796
+            129    *    0.820574
+         Average       1.01574  (0.0746152)
+
+         End offset analysis.
+Order 86 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.09256 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 1011.7
+         Extraction box height = 7
+         Background box 1 height = 5 offset -16.8191 from A2CENTER
+         Background box 2 height = 5 offset 16.8191 from A2CENTER
+
+DISPCORR PERFORM
+DISPTAB  oref$m7p16110o_dsp.fits
+DISPTAB  PEDIGREE=GROUND
+DISPTAB  DESCRIP =Dispersion coefficients reference table
+DISPTAB  DESCRIP =Prelaunch Calibration/Lindler
+APDESTAB oref$16j16005o_apd.fits
+APDESTAB PEDIGREE=INFLIGHT 01/03/1997 01/03/1997
+APDESTAB DESCRIP =Aligned long-slit bar positions for single-bar cases.--------------
+APDESTAB DESCRIP =Microscope Meas./Hartig Post-launch Offsets
+INANGTAB oref$h1v1541eo_iac.fits
+INANGTAB PEDIGREE=GROUND
+INANGTAB DESCRIP =Prelaunch Calibration/Lindler and Models
+INANGTAB DESCRIP =Model
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+PHOTTAB  oref$48717024o_pht.fits
+PHOTTAB  PEDIGREE=INFLIGHT 12/09/2016 24/09/2019
+PHOTTAB  DESCRIP =E140M sensitivity curves and blaze shift time coefficients updated
+PHOTTAB  DESCRIP =Updated Sensitivities and Blaze Shift Time Coef
+APERTAB  oref$y2r1559to_apt.fits
+APERTAB  PEDIGREE=MODEL
+APERTAB  DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+APERTAB  DESCRIP =Bohlin/Hartig TIM Models Nov. 1998
+PCTAB    oref$y2r16001o_pct.fits
+PCTAB    PEDIGREE=INFLIGHT 18/05/1997 19/12/1998
+PCTAB    DESCRIP =Added/updated values for 31X0.05NDA,31X0.05NDB,31X0.05NDC apertures
+TDSTAB   oref$3ah1528co_tds.fits
+TDSTAB   PEDIGREE=INFLIGHT 01/04/1997 04/07/2019
+TDSTAB   DESCRIP =Updated time and temperature sensitivities for all optical elements.
+FLUXCORR PERFORM
+         Blaze shift of -0.669572 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 1 written to disk.
+Order 86 End 22:18:46 UTC
+
+Order 87 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.02597 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 978.685
+         Extraction box height = 7
+         Background box 1 height = 5 offset -16.446 from A2CENTER
+         Background box 2 height = 5 offset 16.446 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.692733 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 2 written to disk.
+Order 87 End 22:18:46 UTC
+
+Order 88 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.961925 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 946.416
+         Extraction box height = 7
+         Background box 1 height = 5 offset -16.0831 from A2CENTER
+         Background box 2 height = 5 offset 16.0831 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.715893 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 3 written to disk.
+Order 88 End 22:18:46 UTC
+
+Order 89 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.954572 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 914.925
+         Extraction box height = 7
+         Background box 1 height = 5 offset -15.7301 from A2CENTER
+         Background box 2 height = 5 offset 15.7301 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.739054 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 4 written to disk.
+Order 89 End 22:18:46 UTC
+
+Order 90 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.966338 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 884.154
+         Extraction box height = 7
+         Background box 1 height = 5 offset -15.387 from A2CENTER
+         Background box 2 height = 5 offset 15.387 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.762215 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 5 written to disk.
+Order 90 End 22:18:46 UTC
+
+Order 91 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.971446 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 854.056
+         Extraction box height = 7
+         Background box 1 height = 5 offset -15.0535 from A2CENTER
+         Background box 2 height = 5 offset 15.0535 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.785375 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 6 written to disk.
+Order 91 End 22:18:46 UTC
+
+Order 92 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.942074 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 824.582
+         Extraction box height = 7
+         Background box 1 height = 5 offset -14.7293 from A2CENTER
+         Background box 2 height = 5 offset 14.7293 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.808536 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 7 written to disk.
+Order 92 End 22:18:46 UTC
+
+Order 93 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.933027 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 795.767
+         Extraction box height = 7
+         Background box 1 height = 5 offset -14.4143 from A2CENTER
+         Background box 2 height = 5 offset 14.4143 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.831697 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 8 written to disk.
+Order 93 End 22:18:46 UTC
+
+Order 94 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.92338 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 767.571
+         Extraction box height = 7
+         Background box 1 height = 5 offset -14.1083 from A2CENTER
+         Background box 2 height = 5 offset 14.1083 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.854857 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 9 written to disk.
+Order 94 End 22:18:46 UTC
+
+Order 95 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.921381 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 739.982
+         Extraction box height = 7
+         Background box 1 height = 5 offset -13.8111 from A2CENTER
+         Background box 2 height = 5 offset 13.8111 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.878018 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 10 written to disk.
+Order 95 End 22:18:46 UTC
+
+Order 96 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.02381 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 713.08
+         Extraction box height = 7
+         Background box 1 height = 5 offset -13.5224 from A2CENTER
+         Background box 2 height = 5 offset 13.5224 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.901179 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 11 written to disk.
+Order 96 End 22:18:46 UTC
+
+Order 97 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.07077 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 686.686
+         Extraction box height = 7
+         Background box 1 height = 5 offset -13.2421 from A2CENTER
+         Background box 2 height = 5 offset 13.2421 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.924339 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 12 written to disk.
+Order 97 End 22:18:46 UTC
+
+Order 98 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.13059 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 660.851
+         Extraction box height = 7
+         Background box 1 height = 5 offset -12.97 from A2CENTER
+         Background box 2 height = 5 offset 12.97 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.9475 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 13 written to disk.
+Order 98 End 22:18:46 UTC
+
+Order 99 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.12043 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 635.475
+         Extraction box height = 7
+         Background box 1 height = 5 offset -12.7058 from A2CENTER
+         Background box 2 height = 5 offset 12.7058 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.970661 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 14 written to disk.
+Order 99 End 22:18:46 UTC
+
+Order100 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.09794 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 610.6
+         Extraction box height = 7
+         Background box 1 height = 5 offset -12.4493 from A2CENTER
+         Background box 2 height = 5 offset 12.4493 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -0.993821 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 15 written to disk.
+Order100 End 22:18:46 UTC
+
+Order101 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.13357 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 586.28
+         Extraction box height = 7
+         Background box 1 height = 5 offset -12.2004 from A2CENTER
+         Background box 2 height = 5 offset 12.2004 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.01698 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 16 written to disk.
+Order101 End 22:18:46 UTC
+
+Order102 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+Warning  Cross correlation to locate spectrum failed.
+Warning  Using global offset instead.
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 562.288
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.9588 from A2CENTER
+         Background box 2 height = 5 offset 11.9588 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.04014 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 17 written to disk.
+Order102 End 22:18:46 UTC
+
+Order103 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.13475 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 539
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.7244 from A2CENTER
+         Background box 2 height = 5 offset 11.7244 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.0633 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 18 written to disk.
+Order103 End 22:18:46 UTC
+
+Order104 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.07745 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 515.988
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.4968 from A2CENTER
+         Background box 2 height = 5 offset 11.4968 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.08646 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 19 written to disk.
+Order104 End 22:18:46 UTC
+
+Order105 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.08283 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 493.476
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.276 from A2CENTER
+         Background box 2 height = 5 offset 11.276 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.10962 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 20 written to disk.
+Order105 End 22:18:46 UTC
+
+Order106 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.10667 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 471.408
+         Extraction box height = 7
+         Background box 1 height = 5 offset -11.0618 from A2CENTER
+         Background box 2 height = 5 offset 11.0618 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.13279 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 21 written to disk.
+Order106 End 22:18:46 UTC
+
+Order107 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.02385 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 449.646
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.8538 from A2CENTER
+         Background box 2 height = 5 offset 10.8538 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.15595 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 22 written to disk.
+Order107 End 22:18:46 UTC
+
+Order108 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.992956 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 428.335
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.6519 from A2CENTER
+         Background box 2 height = 5 offset 10.6519 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.17911 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 23 written to disk.
+Order108 End 22:18:46 UTC
+
+Order109 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.958534 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 407.409
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.456 from A2CENTER
+         Background box 2 height = 5 offset 10.456 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.20227 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 24 written to disk.
+Order109 End 22:18:46 UTC
+
+Order110 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.926141 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 386.861
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.2657 from A2CENTER
+         Background box 2 height = 5 offset 10.2657 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.22543 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 25 written to disk.
+Order110 End 22:18:46 UTC
+
+Order111 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.933902 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 366.72
+         Extraction box height = 7
+         Background box 1 height = 5 offset -10.0809 from A2CENTER
+         Background box 2 height = 5 offset 10.0809 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.24859 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 26 written to disk.
+Order111 End 22:18:46 UTC
+
+Order112 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.890071 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 346.883
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.90146 from A2CENTER
+         Background box 2 height = 5 offset 9.90146 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.27175 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 27 written to disk.
+Order112 End 22:18:46 UTC
+
+Order113 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.932884 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 327.478
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.72706 from A2CENTER
+         Background box 2 height = 5 offset 9.72706 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.29491 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 28 written to disk.
+Order113 End 22:18:46 UTC
+
+Order114 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.902704 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 308.337
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.55754 from A2CENTER
+         Background box 2 height = 5 offset 9.55754 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.31807 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 29 written to disk.
+Order114 End 22:18:46 UTC
+
+Order115 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.982534 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 289.634
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.3927 from A2CENTER
+         Background box 2 height = 5 offset 9.3927 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.34123 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 30 written to disk.
+Order115 End 22:18:46 UTC
+
+Order116 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.95444 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 271.142
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.23233 from A2CENTER
+         Background box 2 height = 5 offset 9.23233 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.36439 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 31 written to disk.
+Order116 End 22:18:46 UTC
+
+Order117 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.10117 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 253.137
+         Extraction box height = 7
+         Background box 1 height = 5 offset -9.07622 from A2CENTER
+         Background box 2 height = 5 offset 9.07622 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.38755 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 32 written to disk.
+Order117 End 22:18:46 UTC
+
+Order118 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.06584 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 235.255
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.92418 from A2CENTER
+         Background box 2 height = 5 offset 8.92418 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.41071 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 33 written to disk.
+Order118 End 22:18:46 UTC
+
+Order119 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.06421 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 217.705
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.77599 from A2CENTER
+         Background box 2 height = 5 offset 8.77599 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.43387 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 34 written to disk.
+Order119 End 22:18:46 UTC
+
+Order120 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.06141 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 200.446
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.63145 from A2CENTER
+         Background box 2 height = 5 offset 8.63145 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.45703 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 35 written to disk.
+Order120 End 22:18:46 UTC
+
+Order121 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.06542 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 183.479
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.49035 from A2CENTER
+         Background box 2 height = 5 offset 8.49035 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.48019 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 36 written to disk.
+Order121 End 22:18:46 UTC
+
+Order122 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.04805 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 166.773
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.3525 from A2CENTER
+         Background box 2 height = 5 offset 8.3525 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.50336 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 37 written to disk.
+Order122 End 22:18:46 UTC
+
+Order123 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.10422 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 150.416
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.21769 from A2CENTER
+         Background box 2 height = 5 offset 8.21769 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.52652 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 38 written to disk.
+Order123 End 22:18:46 UTC
+
+Order124 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+Warning  Cross correlation to locate spectrum failed.
+Warning  Using global offset instead.
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 134.187
+         Extraction box height = 7
+         Background box 1 height = 5 offset -8.0857 from A2CENTER
+         Background box 2 height = 5 offset 8.0857 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.54968 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 39 written to disk.
+Order124 End 22:18:46 UTC
+
+Order125 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.03674 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 118.337
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.95635 from A2CENTER
+         Background box 2 height = 5 offset 7.95635 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.57284 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 40 written to disk.
+Order125 End 22:18:46 UTC
+
+Order126 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 1.02939 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 102.724
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.82941 from A2CENTER
+         Background box 2 height = 5 offset 7.82941 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.596 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 41 written to disk.
+Order126 End 22:18:46 UTC
+
+Order127 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.991616 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 87.3431
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.7047 from A2CENTER
+         Background box 2 height = 5 offset 7.7047 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.61916 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 42 written to disk.
+Order127 End 22:18:46 UTC
+
+Order128 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+         Cross correlation offset: 0.907796 pixels
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 72.1776
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.582 from A2CENTER
+         Background box 2 height = 5 offset 7.582 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.64232 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 43 written to disk.
+Order128 End 22:18:46 UTC
+
+Order129 Begin 22:18:46 UTC
+X1DCORR  PERFORM
+Warning  Cross correlation to locate spectrum failed.
+Warning  Using global offset instead.
+BACKCORR PERFORM
+BACKCORR COMPLETE
+X1DCORR  COMPLETE
+2020220221846-I--------------- X1DCORR complete: ODLC02010 ---------------------
+         Spectrum extracted at y position = 57.4634
+         Extraction box height = 7
+         Background box 1 height = 5 offset -7.4611 from A2CENTER
+         Background box 2 height = 5 offset 7.4611 from A2CENTER
+
+DISPCORR PERFORM
+         Delta = -0.211417 arcsec.
+DISPCORR COMPLETE
+2020220221846-I--------------- DISPCORR complete: ODLC02010 --------------------
+
+HELCORR  PERFORM
+HELCORR  COMPLETE
+2020220221846-I--------------- HELCORR complete: ODLC02010 ---------------------
+
+FLUXCORR PERFORM
+         Blaze shift of -1.66548 pixels applied to sensitivity curve.
+FLUXCORR COMPLETE
+2020220221846-I--------------- FLUXCORR complete: ODLC02010 --------------------
+
+SGEOCORR OMIT
+
+         Row 44 written to disk.
+Order129 End 22:18:46 UTC
+
+Imset 1  End 22:18:46 UTC
+
+Warning  Keyword `XTRACALG' is being added to header.
+End      07-Aug-2020 22:18:46 UTC
+
+*** CALSTIS-6 complete ***
+2020220221846-I--------------- CALSTIS-6 completed: ODLC02010 ------------------
+Update columns in final output table.
+Update header in final output table.
+End      07-Aug-2020 22:18:46 UTC
+
+*** CALSTIS-6 complete ***
+2020220221846-I--------------- CALSTIS-6 completed: ODLC02010 ------------------
+
+End      07-Aug-2020 22:18:46 UTC
+
+*** CALSTIS-0 complete ***
+2020220221846-I--------------- CALSTIS completed: ODLC02010 --------------------
+CALEND ------------ Fri Aug  7 22:18:47 UTC 2020 ------------------
+2020220221848 INFO src=ac_xxx_OWL.run_task fsn=odlc02010 msg="-------------- After Calibration Started for   odlc02010 --------------"
+2020220221848 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2020220221848 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=odlc02010 msg="Opening connection to ..., ..."
+2020220221848 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=odlc02010 msg="4 rows found for association odlc02010"
+2020220221848 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=odlc02010 msg="HstScienceDataset(archive_product='odlc02010', archive_product_type='PRODUCT', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2ae15577e7d0>, instrument='sti', ipppssoot='odlc02010', log=<Logfile.Logfile object at 0x2ae147ecdf10>, product_exposures={'odlc02cxq': 'AUTO-WAVECAL', 'odlc02czq': 'SCIENCE', 'odlc02d1q': 'AUTO-WAVECAL'}, proposal_id='15189', subproducts={})"
+2020220221848 INFO src=ac_xxx_OWL.run_task fsn=odlc02010 msg="-------------- After Calibration Completed for odlc02010 --------------"

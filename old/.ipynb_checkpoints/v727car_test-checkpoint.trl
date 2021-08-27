@@ -1,0 +1,10 @@
+
+*** CALSTIS-6 -- Version 3.4.2 (19-Jan-2018) ***
+Begin    04-Aug-2020 10:19:36 CDT
+2020217101936-I--------------- CALSTIS-6 started -------------------------------
+
+ERROR    PHOTTAB `/media/david/5tb_storage1/stis_recals/v727car/tm_files/new_phottab_&' not found
+Warning  Grating-aperture throughput correction table (GACTAB) was not found,
+         and no gac corrections will be applied
+Error processing /media/david/5tb_storage1/stis_recals/v727car/data/odlc02010_new_flt.fits.
+         Calibration file(s) missing.
